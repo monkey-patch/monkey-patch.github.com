@@ -1,0 +1,27 @@
+/* line 1, ../sass/_screen.sass */
+body {
+  background-image: url("/media/img/bg.png");
+}
+
+/* line 6, ../sass/_screen.sass */
+#logo {
+  width: 382px;
+  height: 125px;
+  background: url("/media/img/logo.png") no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  letter-spacing: -1000em;
+  margin: 10px auto;
+}
+
+/* line 10, ../sass/_screen.sass */
+#content {
+  min-height: 100px;
+  height: auto !important;
+  height: 100px;
+}
+
+/* line 13, ../sass/_screen.sass */
+footer {
+  text-align: right;
+}

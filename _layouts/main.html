@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <title>{{ page.title }} · MonkeyPatch</title>
+    <meta charset="utf-8">
+    <link href="/media/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/media/css/main.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </head>
+
+  <body id="{{ page.bodyid }}">
+    <div class="container">
+      <div class="row">
+        <header class="span12">
+          <h1 id="logo">MonkeyPatch</h1>
+        </header>
+      </div>
+      <div class="row">
+        <div id="content" class="span12">
+          {{ content }}
+        </div>
+      </div>
+      <div class="row">
+        <footer class="span12">
+          <small>&copy; MonkeyPatch (Charlie Denton, Jimbo Wilkinson).</small>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
