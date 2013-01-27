@@ -11,17 +11,22 @@ body {
   text-indent: -9999px;
   overflow: hidden;
   letter-spacing: -1000em;
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
 /* line 10, ../sass/_screen.sass */
+.hero-unit {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 13, ../sass/_screen.sass */
 #content {
   min-height: 100px;
   height: auto !important;
   height: 100px;
 }
 
-/* line 13, ../sass/_screen.sass */
+/* line 16, ../sass/_screen.sass */
 footer {
   text-align: right;
 }
